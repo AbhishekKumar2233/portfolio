@@ -1,0 +1,32 @@
+.project-div{
+    background-color: var(--dark-bg);
+    height: fit-content;
+    color: var(--text-white);
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 4vh;
+    padding-bottom: 5vh;
+}
+.project-heading{
+    font-size: 1.5 rem;
+}
+.git-div{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px ;
+}
+.github-btn{
+    text-decoration: none;
+    color: var(--text-white);
+    border: 2px solid var(--text-white);
+    padding: 14px;
+    border-radius: 20px;
+}
+.github-btn:hover{
+    background-color: var(--text-white);
+    box-shadow: 0 8px 15px hsla(0,0%,100%,.25);
+    color: var(--text-dark);
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}

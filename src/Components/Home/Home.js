@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "../Home/Home.css";
 import { Fade, Slide } from "react-awesome-reveal";
-import { TypeAnimation } from "react-type-animation";
-import TypeAnimationComp from "./TypeAnimationComp";
 import { useTypedText } from "./TypingText";
 // import TypedText  from "../Home/TypingText";
+import logo from "./../../images/port.png";
 
 export default function Home() {
   const [counter, setCounter] = useState(0);
@@ -30,7 +29,7 @@ export default function Home() {
                 <TypeAnimationComp text={"Hello ! Abhishek Kumar."} />
               </div> */}
               <div>
-                <h1 style={{ color: "red" }}>
+                <h1 style={{ color: "rgb(252, 68, 68)" }}>
                   {useTypedText("Hello !", 50)}
                   <br />
                   {useTypedText("I'm Abhishek Kumar", 50, 200)}
@@ -67,7 +66,8 @@ export default function Home() {
             <img
               className="avatar"
               alt="Tijan Bitmoji"
-              src="https://4c8spi-3000.preview.csb.app/static/media/hi.3053a97e105138786656.png"
+              // src="https://4c8spi-3000.preview.csb.app/static/media/hi.3053a97e105138786656.png"
+              src={logo}
             />
           </div>
         </div>
