@@ -71,9 +71,9 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="icon-wrapper">
-          <div className="bottom-icon">{/* <BsChevronDown /> */}</div>
-        </div>
+        {/* <div className="icon-wrapper">
+          <div className="bottom-icon"></div>
+        </div> */}
       </div>
     </>
   );

@@ -119,7 +119,6 @@
 .home-desc {
   width: 40vw;
 }
-
 @media only screen and (max-width: 1020px) {
   .bg {
     padding-left: 5vw;
