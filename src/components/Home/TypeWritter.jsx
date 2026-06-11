@@ -8,6 +8,7 @@ const TypeWritter = () => {
             options={{
                 strings: [
                     "React Js Developer",
+                    "Next Js Developer",
                     "Front End Developer",
                     "Software Developer",
                     "Open Source Contributor",

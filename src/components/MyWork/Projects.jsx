@@ -27,7 +27,7 @@ const Projects = () => {
                     <div id="carouselExampleControls1" className="carousel slide my-1" data-bs-ride="carousel">
                       <div className="carousel-inner">
                         <div className="carousel-item active">
-                          <img src={imageUrl} className="d-block w-100" />
+                          <img src={imageUrl} className="d-block w-100 p-2" />
                         </div>
                       </div>
                     </div>

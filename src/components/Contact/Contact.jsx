@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { MdOutlineDashboard, MdOutlineContactPage, MdEmail } from 'react-icons/md'
-import { AiFillLinkedin, AiFillSkype, AiFillGithub, AiOutlineUnorderedList } from 'react-icons/ai'
+import { AiFillLinkedin, AiFillSkype, AiFillGithub, AiOutlineUnorderedList, AiFillWechat, AiFillSwitcher, AiFillPhone, AiFillApple } from 'react-icons/ai'
 import { send } from 'emailjs-com';
 import { _emailConfig, _contactList } from '../Constant'
 import { ToastContainer, toast } from 'react-toastify';
@@ -21,6 +21,7 @@ const Contact = () => {
         "Skype": <AiFillSkype className='fs-4' />,
         "LinkedIn": <AiFillLinkedin className='fs-4' />,
         "Github": <AiFillGithub className='fs-4' />,
+        "Whatsapp": <AiFillWechat className='fs-4' />,
     }
 
     const handleChange = (e) => {

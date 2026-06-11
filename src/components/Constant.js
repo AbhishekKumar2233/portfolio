@@ -18,10 +18,16 @@ export const _experienceDetails = [
 
 export const _certificateDetails = [
     {
-        certifiucateName: "Full Stack Developer with React Js",
+        certifiucateName: "ReactJs Developer",
         date: "September 2021  - March 2022",
-        company: "CETPA Infotech Pvt. Ltd.",
-        location: "Noida Sector 2, Uttar Pradesh, India"
+        company: "Internshala",
+        location: "Remote"
+    },
+    {
+        certifiucateName: "Backend Developer(Nodejs,Expressjs)",
+        date: "April 2026  - June 2026",
+        company: "Udemy",
+        location: "Remote"
     }
 ]
 export const _educationDetails = [
@@ -61,6 +67,7 @@ export const _skillsDetails = [
     returnValueLabel(13, "Express Js"),
     returnValueLabel(14, "MongoDB"),
     returnValueLabel(17, "Github"),
+    returnValueLabel(18, "Typescript"),
 ];
 
 function returnValueLabel(value, label) {
@@ -77,10 +84,10 @@ export const _profileDetails = [
         url: "https://www.hackerrank.com/profile/abhikumar2612201",
         image: 'hackerRank'
     },
-    // {
-    //     url: "https://leetcode.com/Nitinjanmeda/",
-    //     image: 'leetcode'
-    // }
+    {
+        url: "https://leetcode.com/u/Abhi_1Kumara/",
+        image: 'leetcode'
+    }
 ]
 
 
@@ -149,20 +156,20 @@ export const _projectsDetails = [
         tech: "HTML/CSS/REACT/Express/MpngoDB",
         image: "keeperapp",
         imageType: ".png",
-        url: "https://codesandbox.io/s/github/AbhishekKumar2233/Keeper-App",
+        url: "https://keeper-app-jeg3.vercel.app/",
         github: "https://github.com/AbhishekKumar2233/Keeper-App"
 
     },
-    // {
-    //     id: '4',
-    //     title: "Medico",
-    //     tech: "HTML/CSS/REACT/Bootstrap",
-    //     image: "mistore",
-    //     imageType: ".png",
-    //     url: "https://mistoreclonebynk.netlify.app/",
-    //     github: "https://github.com/nitinkumar2003/Mi-Store"
+    {
+        id: '4',
+        title: "Admin Panel",
+        tech: "REACT/Tailwind/Javascript/Chart.js",
+        image: "adminpanel",
+        imageType: ".png",
+        url: "https://admin-panel-sand-eight.vercel.app/",
+        github: "https://github.com/AbhishekKumar2233/admin-panel"
 
-    // },
+    },
     // {
     //     id: '5',
     //     title: "MI Store Clone",
@@ -199,6 +206,10 @@ export const _contactList=[
     {
         name:"Github",
         url:"https://github.com/AbhishekKumar2233",
+    },
+    {
+        name:"Whatsapp",
+        url:"https://wa.me/9129669915",
     },
     
 ]

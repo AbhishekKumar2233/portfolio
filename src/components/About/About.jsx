@@ -14,10 +14,10 @@ const About = () => {
               <p style={{ textAlign: "justify" }} className='slide-in-bottom'>
                 Hi, I'm <span className="purple">Abhishek Kumar</span> from <span className="purple">Kanpur, Uttar Pradesh, India.</span>
                 <br />
-                I'm currently serving as a React.js developer at Ideahelix Inc.
+                I'm currently serving as a React.js developer/Next.js Developer at Ideahelix Inc.
 
                 <p className='slide-in-bottom'>
-                  I am a passionate Front-End Developer, a self-directed learner, and a collaborative team player with 2.6 years of experience in web development.
+                  I am a passionate Front-End Developer, a self-directed learner, and a collaborative team player with 3.5+ years of experience in web development.
                 </p>
 
                 <p className='slide-in-bottom'>
@@ -25,8 +25,8 @@ const About = () => {
                 </p>
 
                 <p className='slide-in-bottom'>
-                  Technologies I've worked on include: <span className="text-red ls-2">React.js, JavaScript, Next.js, HTML, CSS, Bootstrap, Tailwind CSS, Ant Design, jQuery</span>.
-                <br />  Additionally, my skills extend to: <span className="text-red ls-2">Node.js, Express.js, MongoDB</span>.
+                  Technologies I've worked on include: <span className="text-red ls-2">React.js, JavaScript, Next.js, Typescript, HTML, CSS, Bootstrap, Tailwind CSS, Ant Design, jQuery, Redux, React Query, Chart.js, Vue.js</span>.
+                <br />  Additionally, my skills extend to: <span className="text-red ls-2">Node.js, Express.js, MongoDB, Mysql</span>.
                 </p>
 
                 <p className='slide-in-bottom'>

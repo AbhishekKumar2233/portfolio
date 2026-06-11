@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { SiJavascript, SiNodedotjs, SiNextdotjs, SiReact, SiHtml5, SiCss3, SiBootstrap, SiAntdesign, SiMongodb, SiExpress, SiPug, SiTailwindcss, SiJquery, SiGithub, SiRedux } from 'react-icons/si'
+import { SiJavascript, SiNodedotjs, SiNextdotjs, SiReact, SiHtml5, SiCss3, SiBootstrap, SiAntdesign, SiMongodb, SiExpress, SiPug, SiTailwindcss, SiJquery, SiGithub, SiRedux, SiTypeform, SiTypescript } from 'react-icons/si'
 import { _skillsDetails } from '../Constant'
 import Github from './Github'
 
@@ -20,6 +20,8 @@ const Skills = () => {
         "Express Js": <SiExpress className='fs-4' />,
         "MongoDB": <SiMongodb className='fs-4' />,
         "Github": <SiGithub className='fs-4' />,
+        "Typescript": <SiTypescript className='fs-4' />,
+
     }
     return (
         <>
